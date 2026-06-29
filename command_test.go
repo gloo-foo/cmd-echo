@@ -4,8 +4,9 @@ import (
 	"context"
 	"testing"
 
-	command "github.com/gloo-foo/cmd-echo"
 	gloo "github.com/gloo-foo/framework"
+
+	command "github.com/gloo-foo/cmd-echo"
 )
 
 func TestEcho_SingleArg(t *testing.T) {

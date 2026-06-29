@@ -1,14 +1,15 @@
 package echo_test
 
 import (
-	. "github.com/gloo-foo/cmd-echo"
 	gloo "github.com/gloo-foo/framework/patterns"
+
+	command "github.com/gloo-foo/cmd-echo"
 )
 
 func ExampleEcho_basic() {
 	// echo "Hello World"
 	gloo.MustRun(
-		Echo("Hello World"),
+		command.Echo("Hello World"),
 	)
 	// Output:
 	// Hello World

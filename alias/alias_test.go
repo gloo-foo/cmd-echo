@@ -5,8 +5,9 @@ import (
 	"slices"
 	"testing"
 
-	echo "github.com/gloo-foo/cmd-echo/alias"
 	gloo "github.com/gloo-foo/framework"
+
+	echo "github.com/gloo-foo/cmd-echo/alias"
 )
 
 // The alias package re-exports the Echo constructor under an unprefixed name. A
